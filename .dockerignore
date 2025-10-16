@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Virtual Environment
+venv_haircare/
+venv/
+env/
+etc/
+include/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+
+# Jupyter
+.ipynb_checkpoints
+notebook/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Docs
+README.md
+docs/
+*.md
+
+# Tests
+tests/
+test_*.py
+
+# Logs
+*.log
+
+# CSV outputs (hasil rekomendasi user)
+recommendations_*.csv
+
+# Backups
+*.backup
+*.old
+
+# Dataset - RAW & PROCESSED (tidak perlu di-copy)
+dataset/raw/
+dataset/processed/
+# JANGAN ignore: dataset/preprocess/ (ini dibutuhkan!)
+
+# Model FastText mentah (2.3GB, tidak dibutuhkan)
+models/vec/
+*.bin.vectors_ngr*
+fasttext_haircare_gensim.bin.vectors_ngrams
+fasttext_haircare_gensim.gensim.wv.vectors_ngrams
+
+# Model files lain yang tidak dibutuhkan
+*.h5
+*.hdf5
+checkpoints/
+saved_models/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Media files
+gambar
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+
+# Cache
+.cache/
+*.cache
+
+# Script (hanya untuk training)
+script/
